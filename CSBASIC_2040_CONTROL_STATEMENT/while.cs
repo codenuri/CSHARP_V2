@@ -1,22 +1,20 @@
-using System;
+using static System.Console;
 
 int cnt = 0;
-
 while( cnt < 10 )
 {
-	Console.Write($"{cnt}, ");
+	Write($"{cnt}, ");
 	++cnt;
 }
-Console.WriteLine();
+WriteLine();
 
 cnt = 0;
-
 while( true )
 {
-	Console.Write($"{cnt}, ");
+	Write($"{cnt}, ");
 
 	if ( ++cnt == 10)
 		break;
 }
 
-while( cnt ) {}
+//while( cnt ) {} // error

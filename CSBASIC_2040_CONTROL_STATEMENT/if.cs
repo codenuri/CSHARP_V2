@@ -1,18 +1,18 @@
-using System;
+using static System.Console;
 
 int score = 75;
 
 if ( score > 70 ) 
 {
-	Console.WriteLine("pass");
+	WriteLine("pass");
 }
 else if ( score == 70 )
 {
-	Console.WriteLine("reexam");
+	WriteLine("reexam");
 }
 else 
 {
-	Console.WriteLine("fail");
+	WriteLine("fail");
 }
 
-if ( score ) { }
+if ( score ) { } // error

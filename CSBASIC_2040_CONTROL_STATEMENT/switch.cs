@@ -15,8 +15,6 @@ default:
 	break;
 }
 
-
-
 object obj = 3.4;
 
 switch(obj)
