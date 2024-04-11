@@ -1,0 +1,17 @@
+using static System.Console;
+
+class Program
+{
+//  static bool IsMultipleOf(int n) { return n % k == 0; }
+
+	public static void Main()
+    {
+        int[] array = { 1, 3, 6, 4, 5 };
+
+		int k = 3;	// 사용자가 입력한 값
+
+//		int idx = Array.FindIndex(array, IsMultipleOf );
+
+		int idx = Array.FindIndex(array, n => n % k == 0);    
+    }
+}
